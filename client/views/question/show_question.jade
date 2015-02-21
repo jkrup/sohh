@@ -1,0 +1,11 @@
+template(name="showQuestion")
+  .col-md-12
+    h2 Question:
+    .panel
+      h3 {{title}}
+      .well
+        {{body}}
+    form#answerQuestionForm.col-md-6.form
+      textarea#answerQuestionBody.form-control
+      br
+      button.btn Submit Answer

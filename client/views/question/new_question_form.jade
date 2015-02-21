@@ -1,0 +1,10 @@
+template(name="newQuestionForm")
+  form#newQuestionForm.form.col-md-3
+    label 
+      | title
+    input.form-control#newQuestionTitle(type="text")
+    label 
+      | Question
+    textArea.form-control#newQuestionBody(type="text")
+    br
+    button.btn.btn-info Ask

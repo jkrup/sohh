@@ -7,3 +7,8 @@
 meteor-platform
 autopublish
 insecure
+accounts-facebook
+service-configuration
+mquandalle:jade
+iron:router
+twbs:bootstrap-noglyph
